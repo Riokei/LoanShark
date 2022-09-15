@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row g-5 py-5 row row-cols-1 row-cols-lg-2">
+    <div class="col order-last order-lg-first">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Loan Shark</h1>
+        <h2 class="lead">A simple javascript mortgage loan calculator.</h2>
+        <p class="lead">Use this to quickly hash out the math and total cost of a simple loan repayment plan. Input the total, the months, and finally the interest rate to get back a repayment table and total expected cost of your loan. </p>
+        <ul class="fa-ul pt-2 checklist">
+            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Built in .Net/MVC</li>
+            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Blazing fast.</li>
+            <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Simple to use.</li>
+
+        </ul>
+        <div>
+            <a type="button" class=" btn btn-outline-dark btn-lg px-4 me-md-2" asp-area="" asp-controller="Home" asp-action="App">Try It Out!</a>
+        </div>
+        <h5 class="fw-bold mt-5">
+            <div class="d-flex">
+                <div class="row">
+                    <div class="col"><i class="fab fa-js-square fa-4x jsicon"></i></div>
+                    <div class="col"><i class="fab fa-bootstrap fa-4x bsicon"></i></div>
+                    <div class="col"><i class="fab fa-html5 fa-4x html5icon"></i></div>
+                    <div class="col"><i class="fab fa-css3-alt fa-4x cssicon"></i></div>
+                </div>
+            </div>
+        </h5>
+    </div>
+    <div class="col">
+        <img src="/Images/application-brand-logo.png" class="img-fluid center-block d-block mx-auto" alt="App Logo" width="700">
+    </div>
+</div>
